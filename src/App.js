@@ -3,8 +3,7 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Developers from './components/Developers';
 import Subscribe from './components/Subscribe';
-
-import './App.css';
+import Footer from './components/Footer';
 
 export default function App() {
   return (
@@ -14,6 +13,7 @@ export default function App() {
       <About/>
       <Developers/>
       <Subscribe/>
+      <Footer/>
     </div>
   )
 }
